@@ -13,17 +13,17 @@ The LS-VCE method is simple because it is based on the well-known least-squares 
 The simulation data was done for line and plane fitig. The data of each simulation was divided into two groups with different noises (variance). The results showed that we could estimate the standard deviation of these two groups with the help of LSVCE, assuming we don't know about the noise of these two groups of data.
 
 
-
 ## Files
 - Line_fitting.m : line fitting simulation agmented by LSVCE.
 - Plane_fitting.m : Plane fitting simulation agmented by LSVCE.
 
 
 ## Results
-- Iteration of Algorithm (Up), Iteration of image and object coordinate residuals and the posteriori sigma zero (Phi) (down)  
+- two group of observation for line fitting with diffrent noise that be estimated by LSVSE  
 ![plot](./fig/fig1.jpg)
-![plot](./fige/iter1.jpg)
+![plot](./fig/iter1.jpg)
 
-- Show Rsiduals of first iteration (Up), Normal and t-student distribution on histogram of all residuals (down)
+
+- two group of observation for plane fitting with diffrent noise that be estimated by LSVSE  
 ![plot](./fig/fig2.jpg)
 ![plot](./fig/iter2.jpg)
